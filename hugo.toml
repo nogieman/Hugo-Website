@@ -1,7 +1,16 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://nogieman.github.io/'
 languageCode = 'en-in'
 title = "nogieman's trial site"
 theme = 'hugo-noir'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params]
+  name = "Nogieman"
+  location = "India"
+  description = "Experimenting with Hugo and GitHub Pages"
+  profile_image = "/images/profile.jpg" # Place in static/images/
+  github = "https://github.com/nogieman"
+  email = "nogieman@example.com"
